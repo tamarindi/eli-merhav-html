@@ -1,0 +1,114 @@
+* {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	box-sizing: border-box;/*what other choises are there?*/
+}
+
+body {
+	font-family: Arial;
+    padding: 10px;
+    background:rgb(230, 245, 255);/*light blue*/
+}
+
+
+.header {
+	
+	background-color: white; /*rgb(230, 245, 255); light blue*/
+	border-bottom: 12px solid rgb(66, 133, 244); /*blue color like homepage side nav*/
+	border-top: 12px solid rgb(66, 133, 244);/*blue color like homepage side nav*/
+	padding: 10px;
+	color: darkmagenta;
+}
+.btnhome {
+  background-color: rgb(251, 188, 5); /*gold-yellow like homepage side nav hover rgb(251, 188, 5)*/
+  border: 3px solid red; 
+  color: black;
+  padding: 12px 16px;
+  position:right;  
+  font-size: 20px; 
+  cursor: pointer;
+}
+.btnhome:hover {
+  background-color: white; 
+}
+
+.header h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.header h2 {
+	text-align: center;
+}
+
+/* Clear floats after the columns - didn't fully understand it */
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn {  
+  float: left;
+  width: 70%;
+  padding:30px;
+  margin-top:50px;
+}
+
+.card1 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+p {
+	text-align:center;
+	font-size:22px;
+}
+
+.rightcolumn {
+  float:left;
+  width: 30%;
+  background-color: rgb(241, 241, 241);/*gray*/
+  padding:20px;
+}
+
+
+.card2 {
+	background-color: rgb(255, 255, 230);/*vanil color*/
+	border-right: 6px dotted red;
+	border-left: 6px dotted red;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.tripimg {
+	width: 100%;
+	padding-bottom:20px;
+	padding-top:20px;
+	
+}
+img {
+	width:300px;
+	height:200px;
+	clear: left;
+	padding-right:65px;
+	display:block;
+	/* what does it mean and where should be added? object-fit:cover;*/
+}
+
+
+.footer {
+	height: 400px;
+  padding: 20px;
+  text-align: center;
+  background:black;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  background-image: url("photo/טבע 3.jpg");
+  background-size: cover;/*what are the other choises?*/
+}
+
+/* didn't add responsive layout for screens less than 800px wide, 
+to make the two columns stack on top of each other instead of next to each other, i need an explanation*>

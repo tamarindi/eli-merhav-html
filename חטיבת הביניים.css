@@ -1,0 +1,108 @@
+* {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	box-sizing: border-box;/*what other choises are there?*/
+}
+
+body {
+	font-family: Arial;
+    padding: 10px;
+    background:rgb(230, 245, 255);/*light blue*/
+}
+
+
+.header {
+	
+	background-color: white; /*rgb(230, 245, 255); light blue*/
+	border-bottom: 12px solid rgb(66, 133, 244); /*blue color like homepage side nav*/
+	border-top: 12px solid rgb(66, 133, 244);/*blue color like homepage side nav*/
+	padding: 10px;
+	color: darkmagenta;
+}
+.btnhome {
+  background-color: rgb(251, 188, 5); /*gold-yellow like homepage side nav hover rgb(251, 188, 5)*/
+  border: 3px solid red; 
+  color: black;
+  padding: 12px 16px;
+  position:right;  
+  font-size: 20px; 
+  cursor: pointer;
+}
+.btnhome:hover {
+  background-color: white; 
+}
+
+.header h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.header h2 {
+	text-align: center;
+}
+
+.carda {
+	background:white;
+	padding: 45px;
+    margin: 20px 70px 20px 70px;
+	font-size:22px;
+	border-left: 8px dotted red;
+	border-right: 8px dotted red;
+}
+
+.carda p{
+	text-align:center;
+}
+
+
+.cardb {
+	background:white;
+	padding: 10px;
+    margin: 20px 30px 20px 30px;
+	font-size:20px;
+	border-right: 6px dashed green;
+}
+
+.cardb p{
+	text-align:right;
+}
+
+
+.cardc {
+	background:white;
+	padding: 10px;
+    margin: 20px 30px 20px 30px;
+	font-size:20px;
+	border-top: 6px dashed rgb(251, 188, 5);
+}
+
+.cardc p{
+	text-align:right;
+}
+
+.cardd {
+	background:white;
+	padding: 10px;
+    margin: 20px 30px 20px 30px;
+	font-size:20px;
+	border-top: 6px dashed rgb(251, 188, 5);
+}
+
+.cardd p{
+	text-align:right;
+}
+
+.box1 {
+	background:gray;
+	padding: 10px;
+    margin: 20px 30px 20px 30px;
+	font-size:20px;
+}
+
+.box1 p{
+	text-align:center;
+}
+
+.h3a {
+	direction: ltr;
+	text-align: right;
+}

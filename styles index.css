@@ -1,0 +1,125 @@
+
+* {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+body {  
+	background-color:white;
+	text-align:center;
+	margin-right:200px; 
+}
+
+
+#img1 {
+	width:200px;
+	margin-bottom: 10px; 
+	margin-top: 10px; 
+	padding-bottom:none;
+}
+
+#img2 {
+	width:800;
+	border-style: solid;
+	border-color:rgb(0, 128, 0);/* green*/	
+	border-width:4px;
+	margin-top: 15px;
+}
+h1 {
+	color:darkmagenta; 
+	font-size:70px;
+	margin: 0px 200px 10px;
+	padding-top:none;
+}
+#p1 {
+	font:26px bold;
+	line-height:1.5;
+	color:black;
+	margin: 60px 300px 60px;
+}
+.abig a:link, a:visited {
+  border-style: solid;
+  border-color: black;
+  font-size: 32px;
+  color: white;
+  padding: 14px 25px;
+  margin: 15px 15px 30px 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor:pointer;
+}/*i'm not sure the_visited is working*/
+
+.abig a:hover, a:active {
+  background-color: rgb(251, 188, 5);/*gold*/
+}
+
+
+.a1 {
+	background-color: rgb(66, 133, 244);/*blue*/
+	}
+.a2 {
+	background-color: rgb(66, 133, 244);/*blue*/
+}
+.a3 {
+	background-color: rgb(66, 133, 244);/*blue*/
+}
+.a4 {
+	background-color: darkmagenta;
+}/*if i wanted the disign to be two rows, in each one two links. should i use inline prop. to a2 and a4, block to a1 a3?*/
+
+
+
+#small {
+	background-color:rgb(66, 133, 244);/*blue*/
+	border:3px solid red;
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	display: inline-block;
+	font-size:20px;
+	padding: 5px 50px 5px 50px;
+	margin:auto;
+	cursor:pointer;
+}
+
+
+.trip-img {
+	height:200px;
+	border-style:solid;
+	border-color:black;
+	margin:70px 15px;
+}
+	
+.sidenav {
+	height: 100%;
+	width: 200px;
+	position: fixed;/*'what does "fixed" mean in the case of 100% height?*/?
+	z-index: 1;/*what does it mean?*/
+	top: 0;/*what does it mean?*/
+	right: 0;/*what does it mean?*/
+	background-color:rgb(66, 133, 244);/*blue*/
+	overflow-x: hidden;/*what does it mean?*/
+	padding-top: 60px;
+	padding-bottom: 800px;
+	margin-left:200px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 24px;
+	color: white;
+	display: block;
+}
+
+.sidenav a:hover {
+	color: rgb(251, 188, 5); /* /*gold-yellow */
+}
+
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}/* idon't know if it works on mobile...*/
+			
+
+
